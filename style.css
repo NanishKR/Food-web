@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Vollkorn", serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Vollkorn", serif;
+    font-size:18px;
+    padding: 13px 10px;
+    position: sticky;
+    top: 0;
+    background-color: #232F3E;
+    color: white;
+}
+.navbar .logo{
+    display: flex;
+    transition: 0.1s;
+}
+.navbar .logo{
+    cursor: pointer;
+}
+.navbar .fa-burger{
+    font-size: 25px;
+    padding: 0px 5px;
+}
+.navbar .menu{
+    display: flex;
+    padding: 5px 0px;
+}
+.navbar .menu li{
+    list-style: none;
+}
+.navbar .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 19px;
+    transition: 0.1s;
+    font-size: 18px;
+}
+.navbar .menu li a:hover{
+    opacity: 1;
+    color: rgb(255, 166, 0);
+}
+.navbar .profile{
+    padding: 0px 15px;
+    text-align: center;
+    padding: 5px 0px;
+}
+.navbar .profile .fa-solid{
+    padding: 0px 10px;
+    transition: 0.1s;
+}
+.navbar .profile .fa-solid{
+    cursor:pointer;
+}
+.navbar .profile button{
+    padding: 0px 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+.navbar .profile button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 5px 14px;
+    border-radius: 14px;
+    color: black;
+}
+.main-container{
+    color: white;
+    background: url(https://images.unsplash.com/photo-1615557960916-5f4791effe9d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100% 100%;
+    width: 65%;
+    height: 650px;
+    margin: 20px 250px;
+    border-radius: 20px;
+}
+.main-container h1{
+    padding-top: 200px ;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.main-container p{
+    padding-left: 40px;
+    color: lightgray;
+}
+.main-container button{
+    margin-left: 40px;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 13px;
+    transition: 0.1s;
+    background-color: white;
+}
+.main-container button:hover{
+    background-color: rgb(255, 166, 0);
+}
+.main-container button a{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+.main-container button a:hover{
+    background-color: rgb(255, 166, 0);
+    
+}
+.explore{
+    margin: 0px 250px;
+    width: 65%;
+}
+.explore .head p{
+    color: gray;
+    padding: 10px 0px;
+}
+.explore .images img{
+    border-radius: 50%;
+    padding: 20px 0px;
+    margin: 0px 14px;
+    transition: 0.8s;
+}
+.explore .images img:hover{
+    transform: scale(1.1);
+}
+.explore .image-name{
+    display: flex;
+}
+.explore .image-name .Ice{
+    padding: 0px 30px;
+}
+.explore .image-name .Rolls{
+    padding: 0px 55px;
+}
+.explore .image-name .Deserts{
+    padding: 0px 43px;
+}
+.explore .image-name .Sandwich{
+    padding: 0px 25px;
+}
+.explore .image-name .Cake{
+    padding: 0px 53px;
+}
+.explore .image-name .veg{
+    padding: 0px 53px;
+}
+.explore .image-name .Pasta{
+    padding: 0px 33px;
+}
+.dishes {
+    margin: 50px 252px;
+}
+.dishes .details{
+    margin: 40px 0px;
+    display: flex;
+    gap: 130px;
+}
+.dishes .details .one img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details .one img:hover{
+    transform: scale(1.1);
+    overflow-block: hidden;
+}
+.dishes .details .one .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;
+}
+.dishes .details .one .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details .one p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details .one h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details .sec img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details .sec img:hover{
+    transform: scale(1.1);
+}
+.dishes .details .sec .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 55px;
+}
+.dishes .details .sec .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details .sec p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details .sec h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details .three img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details .three img:hover{
+    transform: scale(1.1);
+}
+.dishes .details .three .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 24px;
+}
+.dishes .details .three .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details .three p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details .three h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details-1{
+    margin: 40px 0px;
+    display: flex;
+    gap: 130px;
+}
+.dishes .details-1 .one img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details-1 .one img:hover{
+    transform: scale(1.1);
+}
+.dishes .details-1 .one .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;
+}
+.dishes .details-1 .one .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details-1 .one p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details-1 .one h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details-1 .sec img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details-1 .sec img:hover{
+    transform: scale(1.1);
+}
+.dishes .details-1 .sec .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;
+}
+.dishes .details-1 .sec .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details-1 .sec p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details-1 .sec h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details-1 .three img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details-1 .three img:hover{
+    transform: scale(1.1);
+}
+.dishes .details-1 .three .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;
+}
+.dishes .details-1 .three .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details-1 .three p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details-1 .three h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details-2{
+    margin: 40px 0px;
+    display: flex;
+    gap: 130px;
+}
+.dishes .details-2 .one img{
+    border-radius: 15px;
+    transition: 0.8s
+}
+.dishes .details-2 .one img:hover{
+    transform: scale(1.1);
+}
+.dishes .details-2 .one .star .fa-star{
+    padding: 10px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+}
+.dishes .details-2 .one .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details-2 .one p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details-2 .one h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details-2 .sec img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details-2 .sec img:hover{
+    transform: scale(1.1);
+}
+.dishes .details-2 .sec .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 18px;
+}
+.dishes .details-2 .sec .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details-2 .sec p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details-2 .sec h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.dishes .details-2 .three img{
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.dishes .details-2 .three img:hover{
+    transform: scale(1.1);
+}
+.dishes .details-2 .three .star .fa-star{
+    padding: 9px 0px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;
+}
+.dishes .details-2 .three .star{
+    padding: 7px 0px;
+    display: flex;
+}
+.dishes .details-2 .three p{
+    color: gray;
+    font-size: 12px;
+}
+.dishes .details-2 .three h3{
+    padding: 5px 0px;
+    color: rgb(253, 165, 2);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+    margin-top: 200px;
+    padding: 30px;
+    width: 100%;
+    height: 300px;
+    background-position: cover;
+    background-color: #232F3E;
+    background-repeat: no-repeat;
+    position:static;
+    color: white;
+}
+.bottom .get-to-know-us h2{
+    padding: 20px 0px;
+}
+.bottom .get-to-know-us li{
+    list-style: none;
+    padding: 5px 0px;
+    transition: 0.1s;
+}
+.bottom .get-to-know-us li:hover{
+    background-color: #ffffff ;
+}
+.bottom .get-to-know-us li a{
+    text-decoration: none;
+    list-style: none;
+    color: #DDDDDD; 
+    transition: 0.1s;
+}
+.bottom .get-to-know-us li a:hover{
+    color: black;
+}
+.bottom .connect-with-us li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.bottom .connect-with-us h2{
+    padding: 20px 0px;   
+}
+.bottom .connect-with-us li a{
+    text-decoration: none;
+    list-style: none;
+    color: #DDDDDD;
+}
+.bottom .make-money-with-us li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.bottom .make-money-with-us h2{
+    padding: 20px 0px;     
+}
+.bottom .make-money-with-us li a{
+    text-decoration: none;
+    list-style: none;
+    color: #DDDDDD;
+}
+.bottom .let-us-help-you li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.bottom .let-us-help-you h2{
+    padding: 20px 0px;
+}
+.bottom .let-us-help-you li a{
+    text-decoration: none;
+    list-style: none;
+    color: #DDDDDD;
+}
+.end{
+    background-color:#141f28;
+    color: white;
+}
+.end .conditions{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 500px;
+}
+.end .rights{
+    text-align: center;
+    padding: 0px 500px;
+}
+
+
